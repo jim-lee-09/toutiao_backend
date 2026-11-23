@@ -56,4 +56,4 @@ uvicorn main:app --reload
 ## 说明
 
 - 数据库密码目前直接写在 `config/db_conf.py`，仅用于本地开发。
-- 前端代码未包含在本仓库中。
+- 前端代码位于 `frontend/` 目录，首次使用先装依赖：`cd frontend` → `npm install` → `npm run dev`。
