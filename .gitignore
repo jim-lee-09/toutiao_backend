@@ -1,0 +1,31 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# ---- Virtual environment ----
+.venv/
+venv/
+env/
+
+# ---- Secrets / local config ----
+.env
+.env.*
+*.pem
+*.key
+
+# ---- IDE ----
+.idea/
+.vscode/
+.jbeval/
+*.iml
+
+# ---- Logs & temp ----
+*.log
+_srv.log
+tmp/
+
+# ---- OS ----
+.DS_Store
+Thumbs.db
